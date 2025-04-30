@@ -1,0 +1,137 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffc5fa;
+}
+
+
+header {
+  background-color: #f8c4e8;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.logo{
+  border-radius: 10px;
+  height: 60px;
+  width: 60px;
+}
+
+nav {
+ 
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  border-radius: 20px;
+  background: #ee8ad8;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+nav ul li a:hover, .active {
+  text-decoration: underline;
+}
+
+
+.about {
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  text-align: left;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.about-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 100px;
+}
+
+
+.why-choose-us {
+  text-align: center;
+  padding: 50px;
+  background: #f7d8e7;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.imgshk{
+  height: 300px;
+  width: 300px;
+  
+}
+
+.feature {
+  background: rgb(240, 192, 221);
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.feature i {
+  font-size: 40px;
+  color: #ff4500;
+  margin-bottom: 10px;
+}
+
+
+.testimonials {
+  background: #fdd1eb;
+  text-align: center;
+  padding: 50px;
+}
+
+.testimonial {
+  background: rgb(231, 184, 212);
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%;
+  margin: 10px auto;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer .social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+footer .social-icons a:hover {
+  color: #ff4500;
+}
